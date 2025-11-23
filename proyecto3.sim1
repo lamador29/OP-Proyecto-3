@@ -4,9 +4,9 @@
 <mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="proyecto_3_diales_de_volumen_brillo1.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
 </item>
 
-<item itemtype="Potentiometer" CircId="Potentiometer-7" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-248,-216" rotation="0" hflip="1" vflip="1" label="4" idLabPos="-16,-40" labelrot="0" valLabPos="14.0083,-24.66" valLabRot="0" Resistance="250 kΩ" Value_Ohm="28750 Ω" Slider="false" Scale="1" />
+<item itemtype="Potentiometer" CircId="Potentiometer-7" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-248,-216" rotation="0" hflip="1" vflip="1" label="4" idLabPos="-16,-40" labelrot="0" valLabPos="14.0083,-24.66" valLabRot="0" Resistance="250 kΩ" Value_Ohm="44750 Ω" Slider="false" Scale="1" />
 
-<item itemtype="Potentiometer" CircId="Potentiometer-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-120,-216" rotation="0" hflip="1" vflip="1" label="3" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="250 kΩ" Value_Ohm="14750 Ω" Slider="false" Scale="1" />
+<item itemtype="Potentiometer" CircId="Potentiometer-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-120,-216" rotation="0" hflip="1" vflip="1" label="3" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="250 kΩ" Value_Ohm="106750 Ω" Slider="false" Scale="1" />
 
 <item itemtype="Resistor" CircId="Resistor-17" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-604,-192" rotation="0" hflip="1" vflip="1" label="1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
 
@@ -32,7 +32,7 @@
 
 <item itemtype="Led" CircId="Led-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,-252" rotation="0" hflip="1" vflip="1" label="6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="false" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
 
-<item itemtype="SerialPort" CircId="SerialPort-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-660,-8" rotation="0" hflip="-1" vflip="1" label="SerialPort-70" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto="false" Port="COM5" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+<item itemtype="SerialPort" CircId="SerialPort-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-728,-136" rotation="0" hflip="-1" vflip="1" label="SerialPort-70" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto="false" Port="COM5" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
 
 <item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-280,-80" />
 
@@ -114,8 +114,8 @@
 
 <item itemtype="Connector" uid="Connector-162" startpinid="Led-38-lPin" endpinid="Uno-1-5" pointList="-348,-252,-348,-296,-668,-296,-668,-104,-504,-104" />
 
-<item itemtype="Connector" uid="Connector-165" startpinid="SerialPort-70-pin0" endpinid="Uno-1-1" pointList="-620,-16,-568,-16,-568,-136,-504,-136" />
+<item itemtype="Connector" uid="Connector-179" startpinid="SerialPort-70-pin1" endpinid="Uno-1-1" pointList="-688,-128,-504,-128,-504,-136" />
 
-<item itemtype="Connector" uid="Connector-166" startpinid="Uno-1-0" endpinid="SerialPort-70-pin1" pointList="-504,-144,-552,-144,-552,0,-620,0" />
+<item itemtype="Connector" uid="Connector-180" startpinid="Uno-1-0" endpinid="SerialPort-70-pin0" pointList="-504,-144,-688,-144" />
 
 </circuit>
