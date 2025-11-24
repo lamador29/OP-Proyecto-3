@@ -44,9 +44,12 @@ void loop() {
   int valorBrillo = analogRead(potBrillo);
   
   // Convertir a porcentaje (0-100%)
-  int volumenActual = map(valorVolumen, 0, 1023, 0, 100);
-  int brilloActual = map(valorBrillo, 0, 1023, 0, 100);
-  
+  int volumenActual = map(valorVolumen, 0, 1023, 0, 101);
+  if (volumenActual > 100) volumenActual = 100;
+
+  int brilloActual = map(valorBrillo, 0, 1023, 0, 101);
+  if (brilloActual > 100) brilloActual = 100;
+
   // Controlar LEDs de VOLUMEN según el porcentaje
   controlarLEDsVolumen(volumenActual);
   
